@@ -1,0 +1,91 @@
+@import 'basic.css';
+
+* {
+  --n-node-color-pressed: transparent !important;
+  --n-node-color-hover: transparent !important;
+}
+
+.title {
+  color: var(--title);
+  text-align: center;
+}
+
+.file {
+  text-align: center;
+
+  & .file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    height: 100px;
+    margin: 2rem auto;
+    border: 0.2rem dashed hsl(0deg 0% 50%);
+    color: hsl(0deg 0% 50%);
+    font-size: 2.2rem;
+    cursor: pointer;
+  }
+  & .small {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    color: var(--text);
+    font-size: 90%;
+  }
+}
+
+.export-setting {
+  position: relative;
+  margin-top: 3rem;
+  padding: 2rem 1.5rem;
+  border: 0.1rem solid var(--title);
+  color: var(--title);
+}
+
+.export-setting::before {
+  content: 'Export Setting';
+  position: absolute;
+  top: -1.8rem;
+  left: 1.5rem;
+  padding: 0 1.5rem;
+  background-color: var(--basic);
+  font-size: 2rem;
+}
+
+.export-setting {
+  width: 100%;
+
+  .treeDetails {
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .n-checkbox__label,
+  .n-form-item-label,
+  .n-tree-node-content__text {
+    color: var(--title);
+    font-size: 1.6rem;
+  }
+
+  .n-tree-node-wrapper {
+    padding: 0.5rem;
+    transition: all 0.2s;
+  }
+  .n-tree-node-wrapper:hover {
+    background-color: var(--text-hover);
+  }
+}
+
+footer {
+  color: hsl(0deg 0% 50%);
+  font-size: 85%;
+  text-align: center;
+  a {
+    color: var(--text);
+  }
+}
+
+.n-base-close:hover {
+  background: transparent;
+}

@@ -1,0 +1,43 @@
+{
+  "name": "kobo2notion",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.1.1",
+    "express": "^4.18.1",
+    "naive-ui": "^2.32.2",
+    "safe-await": "^2.0.0",
+    "sql.js": "^1.7.0",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@unocss/preset-attributify": "^0.45.13",
+    "@unocss/preset-wind": "^0.45.13",
+    "@vitejs/plugin-vue": "3.0.3",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.4.0",
+    "postcss-html": "^1.5.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-preset-env": "^7.8.0",
+    "postcss-scss": "^4.0.4",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.11.0",
+    "stylelint-config-property-sort-order-smacss": "^9.0.0",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-order": "^5.0.0",
+    "unocss": "^0.45.13",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.4",
+    "vite": "3.0.9",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-pwa": "^0.12.3",
+    "vite-plugin-stylelint": "^3.0.7"
+  }
+}
