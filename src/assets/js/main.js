@@ -31,6 +31,7 @@ export const PostData = async (url, data) => {
     },
     body: JSON.stringify(data),
   })
+  if (!response.ok) return [`${response.status}:${response.statusText} (-1)`]
   return response
     .json()
     .then(jsonData => [undefined, jsonData])
