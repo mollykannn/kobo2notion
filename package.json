@@ -10,7 +10,7 @@
   "dependencies": {
     "@notionhq/client": "^2.1.1",
     "@vicons/ionicons5": "^0.12.0",
-    "naive-ui": "^2.33.0",
+    "naive-ui": "^2.33.2",
     "safe-await": "^2.0.0",
     "sql.js": "^1.7.0",
     "vue": "^3.2.37"
