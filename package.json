@@ -16,7 +16,7 @@
     "vue": "^3.2.37"
   },
   "devDependencies": {
-    "@unocss/preset-attributify": "^0.45.13",
+    "@unocss/preset-attributify": "^0.45.26",
     "@unocss/preset-wind": "^0.45.13",
     "@vitejs/plugin-vue": "3.0.3",
     "eslint": "^8.23.0",
