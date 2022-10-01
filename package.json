@@ -13,7 +13,7 @@
     "naive-ui": "^2.33.0",
     "safe-await": "^2.0.0",
     "sql.js": "^1.7.0",
-    "vue": "^3.2.37"
+    "vue": "^3.2.40"
   },
   "devDependencies": {
     "@unocss/preset-attributify": "^0.45.13",
