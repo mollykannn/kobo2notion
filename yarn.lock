@@ -3401,10 +3401,10 @@ ms@2.1.2:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-naive-ui@^2.33.0:
-  version "2.33.0"
-  resolved "https://registry.yarnpkg.com/naive-ui/-/naive-ui-2.33.0.tgz#1f7f42ec6980e4929f5bcb6c49e077eaab2c1ace"
-  integrity sha512-pYfjXXxGa1hPRRsL+PNf39vp/+je4+q37Pqh9Pd/x1CI3guwbjs2oWabbsiKBhQaYDP0gWnptS8RrjQALHyoCQ==
+naive-ui@^2.33.3:
+  version "2.33.3"
+  resolved "https://registry.yarnpkg.com/naive-ui/-/naive-ui-2.33.3.tgz#844c340d0a5d94f84f1af5ec8a47e871be726ad0"
+  integrity sha512-yz2aKdghMVadtvCSBXyjU2bAuGmwLEUcbzmXdUhSdtcbI6mT+mT8vRy43FnbJangPQ87v080q453vtnydNcnhA==
   dependencies:
     "@css-render/plugin-bem" "^0.15.10"
     "@css-render/vue3-ssr" "^0.15.10"
