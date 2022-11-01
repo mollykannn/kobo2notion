@@ -33,7 +33,7 @@
     "stylelint-config-recommended-vue": "^1.4.0",
     "stylelint-order": "^5.0.0",
     "unocss": "^0.45.13",
-    "unplugin-auto-import": "^0.11.2",
+    "unplugin-auto-import": "^0.11.4",
     "unplugin-vue-components": "^0.22.4",
     "vite": "3.0.9",
     "vite-plugin-eslint": "^1.8.1",
