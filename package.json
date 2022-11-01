@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@notionhq/client": "^2.1.1",
+    "@notionhq/client": "^2.2.1",
     "@vicons/ionicons5": "^0.12.0",
     "naive-ui": "^2.33.0",
     "safe-await": "^2.0.0",
