@@ -19,7 +19,7 @@
     "@unocss/preset-attributify": "^0.45.13",
     "@unocss/preset-wind": "^0.45.13",
     "@vitejs/plugin-vue": "3.0.3",
-    "eslint": "^8.23.0",
+    "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.4.0",
