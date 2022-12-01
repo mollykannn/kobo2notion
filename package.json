@@ -38,6 +38,6 @@
     "vite": "3.0.9",
     "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-pwa": "^0.12.3",
-    "vite-plugin-stylelint": "^3.0.7"
+    "vite-plugin-stylelint": "^3.3.0"
   }
 }
