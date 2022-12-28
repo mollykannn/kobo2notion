@@ -6,7 +6,7 @@ defineProps({
 </script>
 
 <template>
-  <n-modal v-model:show="open">
+  <n-modal :show="open">
     <n-card
       class="max-w-600px"
       :title="action === 'Token' ? 'How to Get your Token?' : 'How to Get your Pages/Databases ID?'"

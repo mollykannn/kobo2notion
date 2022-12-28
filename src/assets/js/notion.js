@@ -86,7 +86,7 @@ export function NotionSetting(setting, bookListData, formData, GetMessage) {
     })
     if (errData) return [errData]
     if (data.code) return [data.message]
-    if (!data.id) return ['No page ID!']
+    if (!data.id) return ['Page ID not exist, Please try again.']
     return [undefined, data.id]
   }
 
